@@ -1,0 +1,239 @@
+[
+    {
+        "fieldInput": "id:increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true
+    },
+    {
+        "fieldInput": "author_id:integer:unsigned:nullable",
+        "htmlType": "number",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "is_published:boolean",
+        "htmlType": "toggle-switch",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "is_draft:boolean",
+        "htmlType": "toggle-switch",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+   {
+        "fieldInput": "has_product_link:boolean",
+        "htmlType": "toggle-switch",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "product_link_nofollow:boolean",
+        "htmlType": "toggle-switch",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "title:string",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "excerpt:text:nullable",
+        "htmlType": "textarea",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "content:text:nullable",
+        "htmlType": "textarea",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "slug:string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "meta_title:string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "fb_title:string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "gp_title:string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "meta_keywords:string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "meta_description:text:nullable",
+        "htmlType": "textarea",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "path:string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": false,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "file_name:string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": false,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "file_size:integer:unsigned:nullable",
+        "htmlType": "number",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": false,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "category_id:integer:unsigned:nullable",
+        "htmlType": "number",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+
+    {
+        "fieldInput": "link_to_product_title:string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "link_to_product:string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": true,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "lang:string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": false,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "created_at:dateTime",
+        "htmlType": "date",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false,
+               "inForm": false,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "updated_at:dateTime",
+        "htmlType": "date",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    }
+]
